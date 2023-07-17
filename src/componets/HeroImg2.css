@@ -1,0 +1,44 @@
+ .hero-img2{
+     width: 100%;
+     height: 100vh;
+     position: relative;
+     background: rgba(0, 0, 0, 0.5);
+ }
+
+ .heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .hero-img2::before{
+    content: "";
+    background-image:url();
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+
+ }
+
+ .hero-img2 h1{
+   font-size: 2.4rem;
+
+ }
+ .hero-img2 p{
+   font-size: 1.4rem;
+   text-align: center;
+ }
+@media screen  and (max-width:640px){
+   .hero-img2 h1{
+      font-size: 2rem;
+   }
+   
+}
